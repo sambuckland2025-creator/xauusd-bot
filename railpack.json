@@ -1,3 +1,6 @@
 {
-  "start": "python xauusd_botnew3.py"
+  "$schema": "https://schema.railpack.com",
+  "deploy": {
+    "startCommand": "python xauusd_botnew3.py"
+  }
 }
