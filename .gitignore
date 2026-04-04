@@ -1,0 +1,25 @@
+# Environment / secrets — NEVER commit these
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Bot output
+backtest_results.csv
+*.log
+
+# Telegram bot token (from @BotFather)
+TELEGRAM_TOKEN="8631002566:AAEzNkCuoAO_i2h6GtrvWp4rSeaVZRr1J9s"
+
+# Your Telegram chat ID (from @userinfobot)
+CHAT_ID="5851314699"
+
+# Twelve Data API key (https://twelvedata.com)
+TWELVE_DATA_KEY= 07d82c2484224923b517b991cf2b2442
